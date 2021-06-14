@@ -1,0 +1,17 @@
+<router-outlet></router-outlet>
+<h1>Virtual Tour in Angular</h1>
+
+<div class="slider-wrapper">
+
+    <div class="btn-container next-btn" (click)="slideNext()" *ngIf="showNext">
+      <span> < </span>
+    </div>
+
+    <div class="btn-container prev-btn" (click)="slidePrev()" *ngIf="showPrev">
+      <span> > </span>
+    </div>
+
+    <div style="width: 100%; height: 650px;" id="panaroma"></div>
+
+
+  </div>

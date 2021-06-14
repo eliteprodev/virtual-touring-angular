@@ -1,0 +1,48 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.slider-wrapper {
+    width: 100%;
+     height: 100%; 
+     justify-content: center;
+      display: flex
+}
+
+.btn-container {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 49%;
+    font-size: 25px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    color: gray
+
+}
+
+.next-btn {
+    left: 20px
+}
+
+.prev-btn {
+    right: 20px
+}
+
+
+.swiper-pagination-bullet {
+    background-color: #ccc !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff !important;
+}
